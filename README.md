@@ -18,7 +18,7 @@ There are two flavours of R for the Mac - R-4.2.1-arm64.pkg for newer M1 Macs an
 
 ```R
 
-install.packages(c("tidyverse", "lemon", "git2r"))
+install.packages(c("tidyverse", "lemon", "git2r", "leaflet", "sf"))
 
 ```
 
