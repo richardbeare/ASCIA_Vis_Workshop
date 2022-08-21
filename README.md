@@ -13,22 +13,16 @@ The sites below have versions for Windows and Mac. Choose appropriately.
 1. Install Rstudio from this site: [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download). You need the RStudio desktop.
 1. Start RStudio and run the following command while connected to the internet:
 ```R
-
 install.packages(c("tidyverse", "lemon", "gert"))
-
 ```
 1. Copy this repository using the following command from inside RStudio:
 ```R
-
 gert::git_clone("https://github.com/richardbeare/ASCIA_Vis_Workshop.git", "ASCIA_Vis_Workshop")
-
 ```
 1. We will attempt to use a tool called "etherpads" for communication during the workshop:
 [https://pad.carpentries.org/ASCIA_Vis_Workshop](https://pad.carpentries.org/ASCIA_Vis_Workshop)
 1. Retrieve updates to this material using:
 ```R
-
 gert::git_pull()
-
 ```
 with the repository set as your current working directory.
