@@ -19,6 +19,7 @@ NEJOM paper.
 ## Common pitfalls and tips for newcomers
 
 1. Different parts of rstudio.
+1. Disable autosave of workspace.
 1. Useful shortcuts.
 1. Working directories, changing and different ways of starting rstudio.
 1. R packages - `library` vs `install.packages`.
