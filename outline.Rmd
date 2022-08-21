@@ -1,0 +1,62 @@
+---
+title: "Course Notes"
+author: "Richard Beare"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# ASCIA Visualisation workshop outline
+
+## Introduction
+
+1. Course aims + structure. Understanding ggplot2 by reproducing figures from 
+NEJOM paper.
+1. Appreciation of the power of visualization, especially early in analysis
+1. Check installations of R/Rstudio/tidyverse (potential problems with managed machines)
+1. Etherpad for communications
+1. Terminology - other fields + packages
+
+## Common pitfalls and tips for newcomers
+
+1. Different parts of rstudio.
+1. Useful shortcuts.
+1. Working directories, changing and different ways of starting rstudio.
+1. R packages - `library` vs `install.packages`.
+1. Load the excel file.
+1. tidyverse vs base R.
+
+## Overview of the [Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)
+
+1. Data model via examples. matplot and limitations.
+1. Groupings and mappings to appearance.
+1. geoms and stats.
+
+## Hands on stuff begins
+
+1. Wrangling the data - importance of setting things up correctly
+1. Dataframes and tibbles, arrays, matrices, vectors and lists. Differences and pitfalls
+1. Fundamental types - strings, factors, numbers, boolean
+1. Names for these things - statistical vs comp sci naming
+
+### Playing with data
+
+1. Scatter plots and different ways to use grouping variables
+1. Commonly used geoms and stats
+1. density, histograms
+1. saving
+
+### Common problems
+1. To quote or not to quote.
+1. When should we use `aes`
+1. How to figure out what we can control about a geom.
+
+### Useful stuff
+
+1. Transforming axes.
+1. Scales when faceting
+1. Facet grid vs facet wrap
+1. Interpreting groups (categorical axes, colours creating groups)
+1. Colours
+1. Computed variables
+
+
