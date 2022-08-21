@@ -12,9 +12,9 @@ The sites below have versions for Windows and Mac. Choose appropriately.
 
 There are two flavours of R for the Mac - R-4.2.1-arm64.pkg for newer M1 Macs and R-4.2.1.pkg for Intel Macs
 
-2. Install Rstudio from this site: [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download). You need the RStudio desktop.
+1. Install Rstudio from this site: [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download). You need the RStudio desktop.
 
-3. Start RStudio and run the following command while connected to the internet:
+1. Start RStudio and run the following command while connected to the internet:
 
 ```R
 
@@ -22,7 +22,7 @@ install.packages(c("tidyverse", "lemon", "gert"))
 
 ```
 
-4. Copy this repository using the following command from inside RStudio:
+1. Copy this repository using the following command from inside RStudio:
 
 ```R
 
@@ -30,11 +30,11 @@ gert::git_clone("https://github.com/richardbeare/ASCIA_Vis_Workshop.git", "ASCIA
 
 ```
 
-5. We will attempt to use a tool called "etherpads" for communication during the workshop:
+1. We will attempt to use a tool called "etherpads" for communication during the workshop:
 
 [https://pad.carpentries.org/ASCIA_Vis_Workshop](https://pad.carpentries.org/ASCIA_Vis_Workshop)
 
-6. Retrieve updates to this material using:
+1. Retrieve updates to this material using:
 
 ```R
 
