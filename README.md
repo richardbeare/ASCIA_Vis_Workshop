@@ -18,13 +18,28 @@ There are two flavours of R for the Mac - R-4.2.1-arm64.pkg for newer M1 Macs an
 
 ```R
 
-install.packages(c("tidyverse", "lemon", "git2r"))
+install.packages(c("tidyverse", "lemon", "gert"))
 
 ```
 
 4. Copy this repository using the following command from inside RStudio:
 
-```
-git2r::clone("https://github.com/richardbeare/ASCIA_Vis_Workshop.git", "ASCIA_Vis_Workshop")
+```R
+
+gert::git_clone("https://github.com/richardbeare/ASCIA_Vis_Workshop.git", "ASCIA_Vis_Workshop")
 
 ```
+
+5. We will attempt to use a tool called "etherpads" for communication during the workshop:
+
+[https://pad.carpentries.org/ASCIA_Vis_Workshop](https://pad.carpentries.org/ASCIA_Vis_Workshop)
+
+6. Retrieve updates to this material using:
+
+```R
+
+gert::git_pull()
+
+```
+
+with the repository set as your current working directory.
