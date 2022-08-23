@@ -8,6 +8,9 @@ on good internet connectivity during the workshop.
 
 The sites below have versions for Windows and Mac. Choose appropriately.
 
+Talk to your local IT staff if you don't have permission to install
+software.
+
 1. Install the most recent version of R (4.2.1) from this site: [https://cran.ms.unimelb.edu.au/](https://cran.ms.unimelb.edu.au/). It looks old fashioned, but is the correct place.
     * There are two flavours of R for the Mac - R-4.2.1-arm64.pkg for newer M1 Macs and R-4.2.1.pkg for Intel Macs
 1. Install Rstudio from this site: [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download). 
@@ -18,6 +21,8 @@ The sites below have versions for Windows and Mac. Choose appropriately.
     ```R
     install.packages(c("tidyverse", "lemon", "gert"))
     ```
+    Windows users note that you may see messages about RTools. It is not necessary to
+    install it for this course.
 1. Copy this repository using the following command from inside RStudio:
     ```R
     gert::git_clone("https://github.com/richardbeare/ASCIA_Vis_Workshop.git", "ASCIA_Vis_Workshop")
@@ -25,7 +30,7 @@ The sites below have versions for Windows and Mac. Choose appropriately.
 1. We will attempt to use a tool called "etherpads" for communication during the workshop:
 
    [https://pad.carpentries.org/ASCIA_Vis_Workshop](https://pad.carpentries.org/ASCIA_Vis_Workshop)
-1. Retrieve updates to this material using:
+1. Retrieve updates to this material using (on the day of the course if I make modifications):
     ```R
     gert::git_pull()
     ```
