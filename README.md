@@ -8,6 +8,8 @@ on good internet connectivity during the workshop.
 
 The sites below have versions for Windows and Mac. Choose appropriately.
 
+Windows users do not need RTools for this course.
+
 Talk to your local IT staff if you don't have permission to install
 software.
 
