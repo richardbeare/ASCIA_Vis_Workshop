@@ -1,4 +1,4 @@
-# ASICA Workshop: Visualisation using R and ggplot2
+# CFAR Workshop: Visualisation using R and ggplot2
 
 ## Pre workshop setup
 
